@@ -1,0 +1,97 @@
+@media only screen and (min-width: 900px){
+    /* home page */
+/* font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+ h2, p{
+    font-family: 'Ubuntu', serif;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(assets/crew/background-crew-desktop.jpg);
+}
+
+
+.hamburger{
+    display: none;
+}
+
+.icon__close{
+    display: none;
+}
+
+nav{
+    width: 60%;
+    height: 100px;
+    z-index: 10;
+    margin-right: 0%;
+    margin-top: -35px;
+    position: static;
+}
+
+nav ul{
+    height: 50px;
+    width: 100%;
+   padding: 0 10% 0;
+   background-color: #151528;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 10px;
+    display: inline;
+    line-height: 50px;
+}
+
+
+nav ul li a:hover{
+    color: blue;
+}
+
+#crew__content{
+    text-align: center;
+}
+
+#crew__content h3{
+    text-align: justify;
+    margin-left: 10%;
+}
+
+.img{
+    width: 40%;
+    float: right;
+}
+
+.p-text_container{
+    text-align: justify;
+    width: 90%;
+}
+
+.carousel-item{
+    width: 90%;
+}
+
+.carousel-item h2{
+    margin-top: 100px;
+    text-align: justify;
+    margin-left: 10%;
+}
+
+.carousel-item h1{
+    text-transform: uppercase;
+    text-align: justify;
+    margin-left: 10%;
+}
+
+.p-text_container{
+    width: 80%;
+    margin: auto;
+}
+
+
+}

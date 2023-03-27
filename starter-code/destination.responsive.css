@@ -1,0 +1,162 @@
+@media only screen and (min-width: 900px){
+    /* home page */
+/* font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+ h2, p{
+    font-family: 'Ubuntu', serif;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(assets/destination/background-destination-desktop.jpg);
+}
+
+
+.hamburger{
+    display: none;
+}
+
+.icon__close{
+    display: none;
+}
+
+nav{
+    width: 60%;
+    height: 100px;
+    z-index: 10;
+    margin-right: 0%;
+    margin-top: -35px;
+    position: static;
+}
+
+nav ul{
+    height: 50px;
+    width: 100%;
+   padding: 0 10% 0;
+   background-color: #151528;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 10px;
+    display: inline;
+    line-height: 50px;
+}
+
+
+nav ul li a:hover{
+    color: blue;
+}
+
+#destination__content{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+
+.destination__text__container{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.destination__text__container h2{
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.destination__text__container .mars_img{
+    width: 300px;
+    margin-top: 30px;
+}
+
+.varieties{
+    text-align: center;
+    margin-top: 100px; 
+    width: 50%;  
+}
+
+
+.btn__container button{
+    margin: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.moon, .mars, .europa{
+    margin-top: 10px;
+}
+
+.varieties h1{
+    text-transform: uppercase;
+}
+
+.moon, .mars, .europa, .titan .p_text{
+    width: 100%;
+    margin: auto;
+    text-transform: lowercase;
+}
+
+.tit{
+    width: 80%;
+    margin: auto;
+    text-transform: lowercase;
+}
+
+.operations{
+    margin-top: 30px;
+}
+
+.moon, .mars, .europa, .titan hr{
+    width: 50%;
+    margin: auto;
+}
+
+.distance{
+    margin-top: 10px;
+}
+
+.distance h3{
+    font-size: medium;
+}
+
+.distance h5{ 
+   font-size: small;
+   font-weight: 100;
+}
+
+
+.time h3{
+    font-size: medium;
+}
+
+.time h5{ 
+   font-size: small;
+   font-weight: 100;
+}
+
+
+
+/* hidden element */
+.hidden{
+    display: none;
+}
+
+
+/* active element */
+.active{
+    display: block;
+}
+
+.btn__active{
+    background-color: blue;
+}
+}

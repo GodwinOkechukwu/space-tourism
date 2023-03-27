@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="technology.css">
+  <link rel="stylesheet" href="technology.responsive.css">
+  
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+<body>
+  <img class="logo" src="assets/shared/logo.svg">
+  <img class="hamburger" src="assets/shared/icon-hamburger.svg">
+  <nav class="nav">
+    <ul>
+      <img class="icon__close" src="assets/shared/icon-close.svg">
+      <li><a href="index.html">00 Home</a></li>
+      <li><a href="destination.html">01 Destination</a></li>
+      <li><a href="crew.html">02 Crew</a></li>
+      <li><a href="technology.html">03 Technology</a></li>
+    </ul>
+  </nav>
+  <section id="technology__content">
+    <h2>03 Space launch 101</h2>
+    <div class="tech__img__container">
+      <img class="tech-img operations__cont--1 vehicle__landscape" src="assets/technology/image-launch-vehicle-landscape.jpg">
+      <img class="hidden operations__cont--1 vehicle__portrait" src="assets/technology/image-launch-vehicle-portrait.jpg">
+      <img class="tech-img operations__cont--2 hidden capsule__landscape" src="assets/technology/image-space-capsule-landscape.jpg">
+      <img class="hidden operations__cont--2 capsule__portrait" src="assets/technology/image-space-capsule-portrait.jpg">
+      <img class="tech-img operations__cont--3 hidden spaceport__landscape" src="assets/technology/image-spaceport-landscape.jpg">
+      <img class="hidden operations__cont--3 spaceport__portrait" src="assets/technology/image-spaceport-portrait.jpg">
+    </div>
+    
+    <div class="btn__tech__container ">
+      <button class="btn__tech btn__tech__active" data-tab="1">1</button>
+      <button class="btn__tech" type="button" data-tab="2">2</button>
+      <button class="btn__tech" type="button" data-tab="3">3</button>
+    </div>
+
+    <!-- vehicle -->
+    <div class="vehicle operations__content--1 tech-div">
+      <h5>The terminology...</h5>
+      <h3>Launch vehicle</h3>
+      <div class="tech_text">
+        <p>
+          A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a 
+          payload from Earth's surface to space, usually to Earth orbit or beyond. Our 
+          WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, 
+          it's quite an awe-inspiring sight on the launch pad!
+        </p>
+      </div>
+    </div>
+  
+    
+  <!-- space capsule -->
+  <div class="space_capsule hidden operations__content--2 tech-div">
+    <h5>The terminology...</h5>
+    <h3>Space capsule</h3>
+    <div class="tech_text">
+      <p>     
+         A space capsule is an often-crewed spacecraft that uses a blunt-body reentry 
+        capsule to reenter the Earth's atmosphere without wings. Our capsule is where 
+        you'll spend your time during the flight. It includes a space gym, cinema, 
+        and plenty of other activities to keep you entertained.
+      </p>
+    </div>
+  </div>
+
+  
+  <!-- spaceport -->
+  <div class="space_port hidden operations__content--3 tech-div">
+    <h5>The terminology...</h5>
+    <h3>Spaceport</h3>
+    <div class="tech_text">
+      <p>   
+          A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, 
+          by analogy to the seaport for ships or airport for aircraft. Based in the 
+          famous Cape Canaveral, our spaceport is ideally situated to take advantage 
+          of the Earth’s rotation for launch.
+      </p>
+    </div>  
+  </div>
+  </section>
+  <div class="overlay hidden"></div>
+<script src="tech-script.js"></script>
+</body>
+</html>

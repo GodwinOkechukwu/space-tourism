@@ -1,0 +1,175 @@
+/* home page */
+/* font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+h2, p{
+    font-family: 'Ubuntu', serif;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(assets/technology/background-technology-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.logo{
+    width: 30px;
+    margin-left: 5%;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.hamburger{
+    float: right;
+    margin-right: 5%;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.icon__close{
+    float: right;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+nav{
+    width: 60%;
+    height: 0;
+    margin: auto;
+    z-index: 10;
+    position: fixed;
+    left: 0;
+    right: 0;
+    overflow-x: hidden;
+    transition: 1s;
+}
+
+nav ul{
+   padding-left: 30%; 
+   background-color: #000;
+  
+   
+}
+
+nav ul li{
+    list-style: none;
+    padding: 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#technology__content{
+    text-align: center;
+}
+
+#technology__content p{
+    font-weight: 100;
+}
+
+#technology__content h2{
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.btn__tech__container{
+    margin-top: 20px;
+}
+
+
+.btn__tech__container button{
+    padding: 10px;
+    border-radius: 100%;
+    margin: 0 10px 0 10px;
+    color: #fff;
+    background-color: #000;
+    cursor: pointer;
+}
+
+.btn__tech__container .btn__tech__active{
+    background-color: blue;
+}
+
+.tech__img__container{
+    width: 100%;
+    text-align: center;
+}
+
+.tech__img__container img{
+    width: 90%;
+    margin: auto;
+}
+
+
+.vehicle, .space_capsule, .space_port{
+    margin-top: 20px;
+}
+
+.vehicle h3{
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+.vehicle h5{
+    font-size: 16px;
+    font-weight: 100;
+}
+
+#technology__content h5{
+    font-size: 16px;
+    font-weight: 100;
+}
+
+#technology__content h3{
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+.tech_text{
+    width: 80%;
+    margin: auto;
+}
+
+
+/* overlay */
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .6);
+    filter: blur(3px);
+    z-index: 1;
+    transition: all 1s; 
+  }
+
+/* transition */
+.transition__out{
+    opacity: 1;
+    transition: all 3s;
+}
+
+.transition__in{
+    opacity: 0;
+    transition: all 1s;
+}
+
+/* hidden element */
+.hidden{
+    display: none;
+}
+
+/* active element */
+.active{
+    display: block;
+}

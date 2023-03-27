@@ -1,0 +1,120 @@
+@media only screen and (min-width: 900px){
+    /* home page */
+/* font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+ h2, p{
+    font-family: 'Ubuntu', serif;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(assets/crew/background-crew-desktop.jpg);
+}
+
+
+.hamburger{
+    display: none;
+}
+
+.icon__close{
+    display: none;
+}
+
+nav{
+    width: 60%;
+    height: 100px;
+    z-index: 10;
+    margin-right: 0%;
+    margin-top: -35px;
+    position: static;
+}
+
+nav ul{
+    height: 50px;
+    width: 100%;
+   padding: 0 10% 0;
+   background-color: #151528;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 10px;
+    display: inline;
+    line-height: 50px;
+}
+
+
+nav ul li a:hover{
+    color: blue;
+}
+
+#technology__content{
+    margin-top: 100px;
+}
+
+#technology__content p{
+    font-weight: 100;
+    text-align: justify;
+}
+
+#technology__content h2{
+    text-align: justify;
+    margin-left: 5%;
+}
+
+.btn__tech__container{
+    margin-top: 20px;
+    margin-left: 5%;
+}
+
+
+.btn__tech__container button{
+    padding: 20px;
+    border-radius: 100%;
+    margin: 10px 0 10px 0;
+    display: block;
+}
+
+.tech__img__container{
+    width: 40%;
+    float: right;
+}
+
+.tech__img__container img{
+    width: 100%;
+    height: 350px;
+    margin: auto;
+    margin-top: -50px;
+}
+
+
+#technology__content h5{
+    text-align: justify;
+    font-size: 20px;
+    margin-left: 13%;
+}
+
+#technology__content h3{
+    text-align: justify;
+    font-size: 28px;
+    margin-left: 13%;
+}
+
+.tech_text{
+    width: 40%;
+    height: 50px;
+    margin-left: 13%;
+    line-height: 1.5;
+}
+
+.tech-div{
+    margin-top: -200px;
+}
+
+
+}
